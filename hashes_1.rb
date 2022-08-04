@@ -21,7 +21,7 @@ foods.values
 
 foods["grapes"] = 507
 
-foods["avocado"] = true 
+foods["avocado"] = true
 
 
 #-------------------
@@ -37,14 +37,27 @@ foods["avocado"] = true
 
 # Write code that prints your email hash to the terminal.
 
+email = {
+  "sender" => "Turing Coding Academy",
+
+  "subject" => "Welcome to Turing",
+
+  "date" => "July 18th 2022",
+
+  "time" => "7:18am",
+
+  "message" => "Good job on passing the logic We were like to invite you for an interview!"
+}
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
-# YOUR CODE HERE
+email.keys
+# =>["sender", "subject", "date", "time", "message"]
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
-# YOUR CODE HERE
+email.values
+# =>["Turing Coding Academy", "Welcome to Turing", "July 18th 2022", 7:18am", "Good job on passing the logic We were like to invite you for an interview!"  ]
 
 
 #-------------------
