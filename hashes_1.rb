@@ -46,7 +46,7 @@ email = {
 
   "time" => "7:18am",
 
-  "message" => "Good job on passing the logic We were like to invite you for an interview!"
+  "message" => []
 }
 
 # Write code that prints all of the 'keys' of the email hash
@@ -57,7 +57,7 @@ email.keys
 # Write code that prints all of the 'values' of the email hash
 # you created above:
 email.values
-# =>["Turing Coding Academy", "Welcome to Turing", "July 18th 2022", 7:18am", "Good job on passing the logic We were like to invite you for an interview!"  ]
+# =>["Turing Coding Academy", "Welcome to Turing", "July 18th 2022", 7:18am", "[]""]
 
 
 #-------------------
@@ -107,4 +107,28 @@ p posts[0]
 
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same
 # key-value pairs you used in your email Hash above.
+email = [
+  {
+  "sender" => "Turing Coding Academy",
+  "subject" => "Welcome to Turing",
+  "date" => "July 18th 2022",
+  "time" => "7:18am",
+  "message" => []
+},
+  {
+  "sender" => "Andrew Tsai",
+  "subject" => "Tuition Fee",
+  "date" => "July 18th 2022",
+  "time" => "7:30am",
+  "message" => []
+},
+  {
+  "sender" => "Fidelity",
+  "subject" => "Your annual report",
+  "date" => "July 12th 2022",
+  "time" => "6:00am",
+  "message" => []
+}
+
+]
 # Then, print the email Array to the Terminal.
